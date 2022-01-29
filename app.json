@@ -3,6 +3,28 @@
     "name": "focusTimeApp",
     "slug": "focusTimeApp",
     "version": "1.0.0",
+    "splash": {
+      "image": "./assets/images/focusTimeAppLogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c1136"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "localFocusTime.FocusTimeApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/focusTimeAppLogo.png",
+        "backgroundColor": "#0c1136"
+      }
+    },
+    "icon":"./assets/images/focusTimeAppLogo.png",
+    "web": {
+      "favicon": "./assets/images/focusTimeAppLogo.png"
+    },
     "assetBundlePatterns": [
       "**/*"
     ]
